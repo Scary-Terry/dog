@@ -12,6 +12,8 @@ class Dog:
     def eat(self):
         Dog.foodDishLevel -= 10
 
+def call():
+    return 13
         
 
 d = Dog('Dodger')
@@ -35,3 +37,7 @@ print (d.weight)
 d.eat()
 
 print (d.foodDishLevel)
+
+x = call()
+
+print (x)
