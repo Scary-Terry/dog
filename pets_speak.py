@@ -38,7 +38,9 @@ c.eat()
 print (c.foodDishLevel)
 
 c.speak('Bark!')
+print (c.speak)
 
+print("")
 
 print (d.name)
 print (d.weight)
@@ -46,8 +48,9 @@ print (d.weight)
 d.eat()
 
 print (d.foodDishLevel)
-d.speak('Bark!')
 
+d.speak('Bark!')
+print (d.speak)
 
 
 class Cat(Pet):
@@ -62,6 +65,7 @@ print (b.weight)
 b.eat()
 print (b.foodDishLevel)
 b.speak('Meow!')
+print (b.speak)
 
 print ("")
 
@@ -69,5 +73,7 @@ a = Cat('Marley')
 a.add_weight(8)
 print (a.name)
 print (a.weight)
+a.eat()
+print (a.foodDishLevel)
 a.speak('Meow!')
 print (a.speak)    
